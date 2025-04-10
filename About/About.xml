@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VBECT Extras</name>
+	<author>Marle</author>
+	<packageId>marlemmo.vbe.ctrecipes</packageId>
+	<supportedVersions>
+	  <li>1.5</li>
+	</supportedVersions>
+	<description>
+Adds faster psychite tea recipe to Espresso Machine from Vanilla Brewing Expanded - Coffees and Teas.
+	</description>
+</ModMetaData>
