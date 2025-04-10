@@ -2,8 +2,8 @@
 <Defs>
 	<RecipeDef>
 		<defName>VBECTExtras_PsychiteTea</defName>
-		<label>make fast Psychite tea (x4)</label>
-		<description>Make Psychite tea quickly.</description>
+		<label>make fast psychite tea (x4)</label>
+		<description>Make psychite tea quickly.</description>
 		<jobString>Brewing Psychite Tea.</jobString>
 		<workSkill>Cooking</workSkill>
 		<workSpeedStat>CookSpeed</workSpeedStat>
@@ -39,8 +39,8 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>VBECTExtras_PsychiteTea</defName>
-		<label>make fast Psychite tea (x16)</label>
-		<description>Make a lot of Psychite tea quickly.</description>
+		<label>make fast psychite tea (x16)</label>
+		<description>Make a lot of psychite tea quickly.</description>
 		<jobString>Brewing Psychite Tea.</jobString>
 		<workSkill>Cooking</workSkill>
 		<workSpeedStat>CookSpeed</workSpeedStat>
