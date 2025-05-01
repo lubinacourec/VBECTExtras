@@ -9,4 +9,14 @@
 	<description>
 Adds faster psychite tea recipe to Espresso Machine from Vanilla Brewing Expanded - Coffees and Teas.
 	</description>
+	<loadAfter>
+		<li>vanillaexpanded.vbrewecandt</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>vanillaexpanded.vbrewecandt</packageId>
+			<displayName>Vanilla Brewing Expanded - Coffees and Teas</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2275449762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
 </ModMetaData>
