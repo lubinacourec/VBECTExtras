@@ -6,7 +6,7 @@
 		<description>Make psychite tea quickly.</description>
 		<jobString>Brewing Psychite Tea.</jobString>
 		<workSkill>Cooking</workSkill>
-		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -34,7 +34,7 @@
 			<li>VBE_EspressoMachineBuilding</li>			
 		</recipeUsers>
 		<skillRequirements>
-			<Cooking>4</Cooking>
+			<Cooking>2</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 	<RecipeDef>
@@ -43,7 +43,7 @@
 		<description>Make a lot of psychite tea quickly.</description>
 		<jobString>Brewing Psychite Tea.</jobString>
 		<workSkill>Cooking</workSkill>
-		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
@@ -71,7 +71,7 @@
 			<li>VBE_EspressoMachineBuilding</li>			
 		</recipeUsers>
 		<skillRequirements>
-			<Cooking>4</Cooking>
+			<Cooking>2</Cooking>
 		</skillRequirements>
 	</RecipeDef>
 </Defs>
