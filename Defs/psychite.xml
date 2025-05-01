@@ -2,13 +2,14 @@
 <Defs>
 	<RecipeDef>
 		<defName>VBECTExtras_PsychiteTea</defName>
-		<label>make fast Psychite tea</label>
+		<label>make fast Psychite tea (x4)</label>
 		<description>Make Psychite tea quickly.</description>
 		<jobString>Brewing Psychite Tea.</jobString>
 		<workSkill>Cooking</workSkill>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
 		<workAmount>800</workAmount>
 		<ingredients>
 			<li>
@@ -27,6 +28,43 @@
 		</fixedIngredientFilter>
 		<products>
 			<PsychiteTea>4</PsychiteTea>
+		</products>
+		<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+		<recipeUsers>
+			<li>VBE_EspressoMachineBuilding</li>			
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>VBECTExtras_PsychiteTea</defName>
+		<label>make fast Psychite tea (x16)</label>
+		<description>Make a lot of Psychite tea quickly.</description>
+		<jobString>Brewing Psychite Tea.</jobString>
+		<workSkill>Cooking</workSkill>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>3100</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>64</count>
+			</li>
+			</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PsychiteTea>16</PsychiteTea>
 		</products>
 		<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
 		<recipeUsers>
